@@ -33,14 +33,6 @@ const nextConfig = {
   // Enable static optimization
   swcMinify: true,
   
-  // Increase body parser limit for larger payloads
-  api: {
-    bodyParser: {
-      sizeLimit: '10mb',
-    },
-    responseLimit: '50mb',
-  },
-  
   // Disable powered by header
   poweredByHeader: false,
   
