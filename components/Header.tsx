@@ -29,7 +29,7 @@ export default function Header() {
               Test Proxy
             </Link>
             <a 
-              href="https://github.com/yourusername/proxy-downloader" 
+              href="https://github.com" 
               target="_blank" 
               rel="noopener noreferrer"
               className="px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-900 transition-colors"
@@ -70,7 +70,7 @@ export default function Header() {
                 Test Proxy
               </Link>
               <a 
-                href="https://github.com/yourusername/proxy-downloader" 
+                href="https://github.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-900 transition-colors text-center"
