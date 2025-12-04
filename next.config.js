@@ -1,6 +1,5 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   async headers() {
     return [
       {
@@ -15,6 +14,10 @@ const nextConfig: NextConfig = {
     ];
   },
   reactStrictMode: true,
+  // Increase the timeout for large files
+  experimental: {
+    largePageDataBytes: 128 * 100000, // 12.8MB
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
